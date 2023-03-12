@@ -28,7 +28,15 @@ export const Button: ComponentStyleConfig = {
         outline: {
             color: "blue.500",
             border: "1px solid",
-            borderColor: "blue.500"
+            borderColor: "blue.500",
+            _hover: {
+                bg: "gray.200"
+            },
+            _active: {
+                borderColor: "gray.100",
+                bg: "gray.300",
+                color: "white"
+            }
         },
         oauth: {
             height: "34px",
